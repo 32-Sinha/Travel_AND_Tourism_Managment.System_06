@@ -1,4 +1,4 @@
-
+package travel.managment.system;
 import javax.swing.*;
 import java.awt.*;
 
@@ -7,7 +7,7 @@ public class Splash extends JFrame implements Runnable {
     Thread thread;
     Splash()
     { //setSize(1200,600);
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/C:\\Users\\USER\\Downloads\\OIP.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("C:\\Users\\USER\\Downloads\\icons-20250109T133113Z-001.zip"));
         Image i2 = i1.getImage().getScaledInstance(1200,600, Image.SCALE_DEFAULT);
         ImageIcon i3= new ImageIcon(i2);
         JLabel image = new JLabel(i3);
@@ -34,7 +34,7 @@ public void run() {
                 frame.setLocation(750 - (x + i) / 2, 400 - (i / 2));
                 frame.setSize(x + i, i);
                 try{
-                Thread.sleep(10);} catch (Exception e ){}
+                Thread.sleep(10);} catch (Exception _){}
 
             }
 
