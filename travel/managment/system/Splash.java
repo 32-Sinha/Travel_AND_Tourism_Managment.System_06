@@ -22,7 +22,7 @@ public void run() {
         Thread.sleep(7000);
         setVisible(false);
 
-    } catch (Exception e) {
+    } catch (Exception _) {
 
     }}
         public static void main (String[]args)
